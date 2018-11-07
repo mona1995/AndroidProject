@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="356dp"
+        android:layout_height="136dp"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+         android:text="هذا التطبيق يساعد الام التي لديها طفل مصاب بالتوحد في تنظيم المواعيد ومعلومات الطفل التي يحتاجها وايضا يفيد في تنمية المشاعر لدى الأطفال المصابين، فتذكر له مثلًا شعور الفرح وهو يقوم بالضغط على صورة الوجه المبتسم أو الحزين وهكذا مع مرور الوقت يميز بين تلك المشاعر"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="289dp"
+
+
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/im" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="193dp"
+        android:text="ماذا عن البرنامج !" />
+
+
+</RelativeLayout>
